@@ -1,8 +1,8 @@
 try:
-    number1 = int(input("Write the first number:"))
-    number2 = int(input("Write the second number:"))
+    number1 = int(input("Write the first number: "))
+    number2 = int(input("Write the second number: "))
     print("\n1 addition \n2 subtraction \n3 division \n4 multiplication")
-    operator = int(input("Select operation:"))
+    operator = int(input("Select operation: "))
     if operator == 1:
         result = number1 + number2
     elif operator == 2:
@@ -18,6 +18,6 @@ try:
 except ZeroDivisionError:
     print("You can't divide zero")
 except ValueError:
-    print("Error. You can only write numbers or nothing was written")
+    print("Error. A letter was written or nothing was written")
 except Exception:
     print("Something went wrong")
