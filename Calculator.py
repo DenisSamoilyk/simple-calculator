@@ -18,6 +18,6 @@ try:
 except ZeroDivisionError:
     print("You can't divide zero")
 except ValueError:
-    print("Error. A letter was written or nothing was written")
+    print("Error. You can only write numbers or nothing was written")
 except Exception:
     print("Something went wrong")
