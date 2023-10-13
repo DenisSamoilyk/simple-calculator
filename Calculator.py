@@ -1,5 +1,5 @@
 try:
-    number1 = int(input("Write the first number:"))
+    number1 = int(input("Write the first number: "))
     number2 = int(input("Write the second number: "))
     print("\n1 addition \n2 subtraction \n3 division \n4 multiplication")
     operator = int(input("Select operation: "))
