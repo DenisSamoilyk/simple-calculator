@@ -48,13 +48,13 @@ while True:
             Multiplication_last_letter = write_operator.find("n")
             find_Multiplication = word[Multiplication_first_letter:(Multiplication_last_letter + 1)]
 
-            if write_operator == "1" or write_operator == "+" or find_Addition == "addition":
+            if find_Addition == "addition" or write_operator == "1" or write_operator == "+":
                 result = number1 + number2
-            elif write_operator == "2" or write_operator == "-" or find_Subtraction == "subtraction":
+            elif find_Subtraction == "subtraction" or write_operator == "2" or write_operator == "-":
                 result = number1 - number2
-            elif write_operator == "3" or write_operator == "/" or find_Division == "division":
+            elif find_Division == "division" or write_operator == "3" or write_operator == "/":
                 result = number1 / number2
-            elif write_operator == "4" or write_operator == "*" or find_Multiplication == "multiplication":
+            elif find_Multiplication == "multiplication" or write_operator == "4" or write_operator == "*":
                 result = number1 * number2
             else:
                 print("┏◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚◚┓")
