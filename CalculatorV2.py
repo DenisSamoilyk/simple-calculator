@@ -23,8 +23,9 @@ while True:
         elif find_Calculator == "calculator" or write == "1":
 
             # Calculator
-            number1 = int(input("Write the first number: "))
-            number2 = int(input("Write the second number: "))
+            print("▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+            number1 = float(input("Write the first number: "))
+            number2 = float(input("Write the second number: "))
             print("▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
             print("1: addition \n2: subtraction \n3: division \n4: multiplication \n")
             write_operator = input("Select operation: ")
